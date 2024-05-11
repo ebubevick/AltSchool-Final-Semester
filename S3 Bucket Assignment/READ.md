@@ -79,7 +79,7 @@ Static Website through S3 Bucket Endpoint URL
 ![Accessing the Static Website Through the S3 End-point URL](s3_static_website_accessed.png)
 
 Static Website through CloudFront Domain
-![Access the website via the CloudFront domain](Website_accessed_through_cloudfront dist._domain.png)
+![Access website via the CloudFront domain](Website_accessed_through_cloudfront dists_domain.png)
 
 Conclusion
 By following these steps, you have successfully created a static website hosted on an S3 bucket with public read access and leveraged CloudFront as a CDN for improved content delivery performance and scalability.
