@@ -13,7 +13,7 @@ Click on "Create bucket".
 Specify a unique bucket name and select the desired region.
 Keep default settings and click "Create bucket".
 
-![Aws S3 bucket created](bucket_created.ng)
+![Aws S3 bucket created](bucket_created.png)
 
 Step 2: Upload Website Files to S3
 Open the newly created S3 bucket.
@@ -89,7 +89,7 @@ Static Website through S3 Bucket Endpoint URL
 
 Static Website through CloudFront Domain
 
-![Access website via the CloudFront domain](website_accessed_through_cloudfront dists_domain.png)
+![Access website via the CloudFront domain](website_accessed_through_cloudfront_dists_domain.png)
 
 Conclusion
 By following these steps, you have successfully created a static website hosted on an S3 bucket with public read access and leveraged CloudFront as a CDN for improved content delivery performance and scalability.
