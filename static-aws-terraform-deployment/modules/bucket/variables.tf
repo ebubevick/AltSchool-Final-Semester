@@ -3,14 +3,16 @@ variable "bucket_name" {
   type        = string
 }
 
-variable "domain_name" {
-  description = "The domain name for the website"
+variable "index_document" {
+  description = "The index document for the S3 website"
   type        = string
+  default     = "index.html"
 }
 
-variable "acm_certificate_arn" {
-  description = "The ARN of the ACM certificate"
+variable "error_document" {
+  description = "The error document for the S3 website"
   type        = string
+  default     = "error.html"
 }
 
 variable "website_content_dir" {
